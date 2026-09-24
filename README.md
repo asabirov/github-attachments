@@ -17,7 +17,7 @@ You need Bash, Node.js 21 or later, and one of these browser options:
 The Orca driver also requires the `file` utility on PATH for MIME detection.
 The tool has no npm dependencies. Its Chrome driver currently expects Chrome at the standard macOS application path.
 
-Clone `asabirov/github-attachments` and run the commands from the repository root. To use it from an agent, expose the checkout as the `github-attachments` skill. The agent instructions are in [SKILL.md](SKILL.md).
+Clone `asabirov/github-attachments-skill` and run the commands from the repository root. To use it from an agent, expose the checkout as the `github-attachments` skill. The agent instructions are in [SKILL.md](SKILL.md).
 
 ```bash
 # Outside Orca: opens Chrome for a one-time GitHub sign-in.
